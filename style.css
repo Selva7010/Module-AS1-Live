@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.material-symbols-outlined{
+    color: white !important;
+    font-size: 50px;
+}
+nav{
+    background-color: black;
+}
+.navbar-brand{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.navbar-nav a{
+    color: yellow !important;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar-nav a:hover{
+    color: rgb(255, 255, 255) !important;
+}
+.nav-item{
+    padding: 5px 10px;
+    color: white;
+}
+.nav-item .active{
+    background-color: rgb(137, 202, 8);
+    border-radius: 10px;
+    color: black !important;
+}
+
+
+/*   Home Section   */
+.home-text{
+    color: white;
+}
+.home-img{
+    margin-top: 50px !important;
+}
+.download-btn:hover{
+    background-color: rgb(25, 0, 255) !important;
+}
+.ab-btn:hover{
+    background-color: rgb(255, 225, 0);
+}
+.home-con{
+    margin-top: 100px;
+}
+/*          About Section             */
+
+.about-title{
+    color: yellow;
+}
+.card img{
+    padding: 10px;
+    
+}
+/* .card-title{
+    text-decoration: underline;
+} */
+.about h5{
+    color: white !important;
+}
+.card-img-center{
+    margin-top: 110px;
+}
+.call{
+    color: rgb(140, 255, 0) !important;
+    font-size: 40px;
+}
+.mail{
+    color: rgb(140, 255, 0) !important;
+    font-size: 40px;
+}
+.btn{
+    width: 150px;
+}
+.per-info{
+    /* text-decoration: underline; */
+    line-height: 40px;
+    color: yellowgreen;
+}
+.social-icons a{
+    color: white;
+}
+.social-icons a:hover{
+    color: yellowgreen;
+}
+.about .card{
+    background-color: rgb(22, 22, 22) !important;
+}
+
+
+/*         Project Section */
+
+.project-title{
+    color: yellow;
+}
+.pro-descrip{
+    text-align: justify;
+    text-indent: 50px;
+}
+.pro-card{
+    min-height: 480px;
+    background-color: rgb(249, 255, 195);
+}
+
+
+/*           Skills Section        */
+.skills-title{
+    color: yellow;
+}
+.skills-card{
+    min-height: 235px;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: .5s;
+    border-radius: 30px;
+}
+.skills-card:hover{
+    background-color: rgb(40, 36, 36);
+    transform: scale(1.05);
+}
+.skill-heading{
+    color: yellow;
+}
+
+.skill-content{
+    color: white;
+}
+.text-bg{
+    background-color: yellowgreen !important;
+    color: black;
+}
+/*         Download Section        */
+.download-btn{
+    width: 300px;
+    transition: 0.5s;
+    border: none;
+    background-color: blue;
+}
+.download-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(2, 2, 108) !important;
+}
+
+
+/*            Contact Section            */
+
+
+.contact-title{
+    color: yellow;
+}
+.contact{
+    color: white;
+}
+.form-container{
+    background-color: rgb(249, 255, 195);
+    border-radius: 20px;
+}
+form label{
+    color: black !important;
+}
+form input{
+    border: 1px solid rgb(91, 89, 89) !important;
+}
+.reg button{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.social-icons-contact a{
+    color: rgb(0, 0, 0);
+}
+.social-icons-contact a:hover{
+    color: rgb(255, 85, 0);
+}
+.sign-in{
+    color: black;
+}
+.forget-create{
+    text-decoration: none;
+}
+
+/*        Footer Section       */
+.card-footer{
+    color: white;
+}
